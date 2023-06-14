@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navbar {
+  background-color: #0fad69;
+  border-radius: 50px;
+  box-shadow: 10px 5px 5px #577e6d
+}
+.navbar h1{
+  font-size: 40px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style:oblique;
+  text-decoration: underline;
+}
+
+.navbar-start{
+  margin: 3%;
+  font-weight: bold;
+}
+
+.navbar-start a{
+  margin: 20%;
+}
+
+
+.web-app {
+  
+  box-shadow: 10px 7px 5px rgb(91, 91, 118);
+}
+.app-card{
+  width: 40%;
+  margin: 3%;
+  border: 2px solid black;
+  display: inline-block
+}
+.margin{
+  margin: 2%;
+}
+
+.about-cards{
+  display:inline-flex
+}
+.about-cards .card-image{
+  width: ;
+}
+
+.contact-page{
+  margin: 1%;
+  width: 50%;
+}
