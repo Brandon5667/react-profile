@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/%7Breact-profile%7D/static/css/main.e879fe04.css",
-    "main.js": "/%7Breact-profile%7D/static/js/main.305de7d4.js",
-    "static/js/787.5c467991.chunk.js": "/%7Breact-profile%7D/static/js/787.5c467991.chunk.js",
-    "static/media/selfie.jpg": "/%7Breact-profile%7D/static/media/selfie.53f9933cc8835d63d342.jpg",
-    "static/media/peakfitnessscreenshot.png": "/%7Breact-profile%7D/static/media/peakfitnessscreenshot.84d138869a900b3548e6.png",
-    "static/media/cash4cachescreenshot.png": "/%7Breact-profile%7D/static/media/cash4cachescreenshot.724af1b4c7274a77a47b.png",
-    "static/media/Brandonsresume.png": "/%7Breact-profile%7D/static/media/Brandonsresume.acfb54d6dac344714d73.png",
-    "static/media/weatherappscreenshot.png": "/%7Breact-profile%7D/static/media/weatherappscreenshot.e52f72b725ba22912526.png",
-    "static/media/notetakerscreenshot.png": "/%7Breact-profile%7D/static/media/notetakerscreenshot.348a41d30825718b3991.png",
-    "static/media/textediterscreenshot.png": "/%7Breact-profile%7D/static/media/textediterscreenshot.35b4e3ff2a42b69b6e28.png",
-    "static/media/brandonsresume.pdf": "/%7Breact-profile%7D/static/media/brandonsresume.ae3dd1b42873c21c04fc.pdf",
-    "static/media/logo.svg": "/%7Breact-profile%7D/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/%7Breact-profile%7D/index.html",
-    "main.e879fe04.css.map": "/%7Breact-profile%7D/static/css/main.e879fe04.css.map",
-    "main.305de7d4.js.map": "/%7Breact-profile%7D/static/js/main.305de7d4.js.map",
-    "787.5c467991.chunk.js.map": "/%7Breact-profile%7D/static/js/787.5c467991.chunk.js.map"
+    "main.css": "/react-profile/static/css/main.e879fe04.css",
+    "main.js": "/react-profile/static/js/main.1f362072.js",
+    "static/js/787.5c467991.chunk.js": "/react-profile/static/js/787.5c467991.chunk.js",
+    "static/media/selfie.jpg": "/react-profile/static/media/selfie.53f9933cc8835d63d342.jpg",
+    "static/media/peakfitnessscreenshot.png": "/react-profile/static/media/peakfitnessscreenshot.84d138869a900b3548e6.png",
+    "static/media/cash4cachescreenshot.png": "/react-profile/static/media/cash4cachescreenshot.724af1b4c7274a77a47b.png",
+    "static/media/Brandonsresume.png": "/react-profile/static/media/Brandonsresume.acfb54d6dac344714d73.png",
+    "static/media/weatherappscreenshot.png": "/react-profile/static/media/weatherappscreenshot.e52f72b725ba22912526.png",
+    "static/media/notetakerscreenshot.png": "/react-profile/static/media/notetakerscreenshot.348a41d30825718b3991.png",
+    "static/media/textediterscreenshot.png": "/react-profile/static/media/textediterscreenshot.35b4e3ff2a42b69b6e28.png",
+    "static/media/brandonsresume.pdf": "/react-profile/static/media/brandonsresume.ae3dd1b42873c21c04fc.pdf",
+    "static/media/logo.svg": "/react-profile/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-profile/index.html",
+    "main.e879fe04.css.map": "/react-profile/static/css/main.e879fe04.css.map",
+    "main.1f362072.js.map": "/react-profile/static/js/main.1f362072.js.map",
+    "787.5c467991.chunk.js.map": "/react-profile/static/js/787.5c467991.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e879fe04.css",
-    "static/js/main.305de7d4.js"
+    "static/js/main.1f362072.js"
   ]
 }
