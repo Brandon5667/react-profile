@@ -9,9 +9,9 @@ export default function About() {
       </figure>
     </div>
   </div>
-  <div>
-      <h1 style={{ fontSize: 30, fontWeight: "bold"}}>About Me</h1>
-      <p style={{fontSize: 20, margin: '1%'}}>
+  <div className="about-me">
+      <h1 style={{ fontSize: "100%", fontWeight: "bold"}}>About Me</h1>
+      <p style={{fontSize: "100%", margin: '1%'}}>
         I'm Brandon, a web devolpment student in the UNC web devolpment bootcamp.
         I am learning full stack devolpment in the MERN stack enviroment. I have worked 
         with technolgies such as HTML, CSS, Javascript. With those I have worked with frameworks
