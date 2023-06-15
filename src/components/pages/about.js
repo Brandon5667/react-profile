@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="about-cards"><div className="card">
     <div className="card-image">
-      <figure className="image is-3by1" style={{"height": 500, "width": 500}}>
+      <figure className="image is-3by1" style={{"height": 200, "width": 200}}>
         <img src={require('../images/selfie.jpg')} alt="Placeholderimage"></img>
       </figure>
     </div>
