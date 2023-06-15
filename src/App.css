@@ -41,10 +41,11 @@
 .navbar {
   background-color: #0fad69;
   border-radius: 50px;
-  box-shadow: 10px 5px 5px #577e6d
+  box-shadow: 10px 5px 5px #577e6d;
+  margin: 1%;
 }
 .navbar h1{
-  font-size: 40px;
+  font-size: 3vw;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style:oblique;
   text-decoration: underline;
@@ -75,7 +76,8 @@
 }
 
 .about-cards{
-  display:inline-flex
+  display:inline-flex;
+  margin: 1%
 }
 .about-cards .card-image{
   width: ;
