@@ -13,7 +13,9 @@ function NavTabs({ currentPage, handlePageChange }) {
         return () => window.removeEventListener("resize", updateMedia);
     });
     
-   
+   const [menuVisible, setMenuVisible] = useState(false);
+
+   let isDropdownActive = menuVisible ? "is-active" : "is-inactive";
       
     return (
         <nav className="navbar" style={{ backgroundColor: "#9fedcb" }} role="navigation" aria-label="main navigation">
@@ -23,7 +25,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </a>
                 {isDesktop ? (
                 <div id="navbarBasicExample" class="navbar-menu">
-                    <div class="navbar-start">
+                    <div className="navbar-start">
                         <a
                             href="#about"
                             onClick={() => handlePageChange('About')}
@@ -54,9 +56,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                         </a>
                     </div>
                 </div>) : (
-                    <div className="dropdown is-active">
+                    <div className={"dropdown "+isDropdownActive}>
                     <div className="dropdown-trigger">
-                      <button className="button"  aria-haspopup="true" aria-controls="dropdown-menu">
+                      <button className="button" onClick={()=> setMenuVisible(!menuVisible)} aria-haspopup="true" aria-controls="dropdown-menu">
                         <span>Dropdown button</span>
                         <span className="icon is-small">
                           <i className="fas fa-angle-down" aria-hidden="true"></i>
