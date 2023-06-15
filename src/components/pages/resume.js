@@ -3,8 +3,7 @@ import examplepdf from '../images/brandonsresume.pdf';
 
 export default function Resume() {
   return (
-    <div>
-      <h1>Resume Page</h1>
+    <div className='resume'>
       <div>
         <h2>Brandon-cullifer-resume</h2>
         <a

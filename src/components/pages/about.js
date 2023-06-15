@@ -10,7 +10,7 @@ export default function About() {
     </div>
   </div>
   <div>
-      <h1 style={{ fontSize: 30, fontWeight: "bold"}}>About Page</h1>
+      <h1 style={{ fontSize: 30, fontWeight: "bold"}}>About Me</h1>
       <p style={{fontSize: 20, margin: '1%'}}>
         I'm Brandon, a web devolpment student in the UNC web devolpment bootcamp.
         I am learning full stack devolpment in the MERN stack enviroment. I have worked 

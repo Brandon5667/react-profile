@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
     const [isDesktop, setDesktop] = useState(window.innerWidth > 1000);
-
     const updateMedia = () => {
         setDesktop(window.innerWidth > 1450);
     };
@@ -13,6 +12,9 @@ function NavTabs({ currentPage, handlePageChange }) {
         window.addEventListener("resize", updateMedia);
         return () => window.removeEventListener("resize", updateMedia);
     });
+    
+   
+      
     return (
         <nav className="navbar" style={{ backgroundColor: "#9fedcb" }} role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
@@ -54,7 +56,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </div>) : (
                     <div className="dropdown is-active">
                     <div className="dropdown-trigger">
-                      <button className="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <button className="button"  aria-haspopup="true" aria-controls="dropdown-menu">
                         <span>Dropdown button</span>
                         <span className="icon is-small">
                           <i className="fas fa-angle-down" aria-hidden="true"></i>

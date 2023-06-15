@@ -60,6 +60,10 @@
   margin: 20%;
 }
 
+.navbar-burger{
+  margin-right: 50px
+}
+
 
 .web-app {
   
@@ -69,7 +73,8 @@
   width: 40%;
   margin: 3%;
   border: 2px solid black;
-  display: inline-block
+  display: inline-block;
+  vertical-align: top;
 }
 .margin{
   margin: 2%;
@@ -88,8 +93,18 @@
   width: 50%;
 }
 
+.resume{
+  margin: 1%;
+}
+
 @media only screen and (max-width: 768px){
   [class*="about-cards"]{
     display: block;
+  }
+}
+
+@media only screen and  (max-width: 768px){
+  [class="app-card"]{
+    width: 90%;
   }
 }

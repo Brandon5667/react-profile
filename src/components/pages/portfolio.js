@@ -3,7 +3,6 @@ import React from "react";
 export default function Portfolio() {
     return (
         <div className="margin">
-            <h1>Portfolio Page</h1>
             <div className="web-app-cards row">
                 <div className="app-card">
                     <div className="web-app">
