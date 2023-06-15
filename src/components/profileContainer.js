@@ -4,6 +4,7 @@ import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
 import NavTabs from "./navtabs";
+import Footer from "./footer";
 
 export default function ProfileContainer() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -27,6 +28,7 @@ export default function ProfileContainer() {
         <div>
           <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
           {renderPage()}
+          <Footer />
         </div>
       );
 };
