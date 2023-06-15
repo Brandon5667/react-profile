@@ -67,19 +67,19 @@ function NavTabs({ currentPage, handlePageChange }) {
                     </div>
                     <div className="dropdown-menu" id="dropdown-menu" role="menu">
                       <div className="dropdown-content">
-                        <a href="#about" onClick={() => handlePageChange('About')}
+                        <a href="#about" onClick={() => {handlePageChange('About'); setMenuVisible(!menuVisible);}}
                             className={currentPage === 'About' ? 'dropdown-item is-active' : 'dropdown-item'}>
                           About
                         </a>                        
-                        <a href='#contact' onClick={() => handlePageChange('Contact')}
+                        <a href='#contact' onClick={() => {handlePageChange('Contact'); setMenuVisible(!menuVisible);}}
                             className={currentPage === 'Contact' ? 'dropdown-item is-active' : 'dropdown-item'}>
                           Contact
                         </a>                        
-                        <a href="#portfolio" onClick={() => handlePageChange('Portfolio')}
+                        <a href="#portfolio" onClick={() => {handlePageChange('Portfolio'); setMenuVisible(!menuVisible)}}
                             className={currentPage === 'Portfolio' ? 'dropdown-item is-active' : 'dropdown-item'}>
                           Portfolio
                         </a>
-                        <a href="#resume" onClick={() => handlePageChange('Resume')}
+                        <a href="#resume" onClick={() => {handlePageChange('Resume'); setMenuVisible(!menuVisible)}}
                             className={currentPage === 'Resume' ? 'dropdown-item is-active' : 'dropdown-item'}>
                           Resume
                         </a>
