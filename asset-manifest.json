@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-profile/static/css/main.a27cec63.css",
-    "main.js": "/react-profile/static/js/main.8d30fc86.js",
+    "main.css": "/react-profile/static/css/main.adbf6585.css",
+    "main.js": "/react-profile/static/js/main.068cd50b.js",
     "static/js/787.5c467991.chunk.js": "/react-profile/static/js/787.5c467991.chunk.js",
     "static/media/selfie.jpg": "/react-profile/static/media/selfie.53f9933cc8835d63d342.jpg",
     "static/media/peakfitnessscreenshot.png": "/react-profile/static/media/peakfitnessscreenshot.84d138869a900b3548e6.png",
@@ -13,12 +13,12 @@
     "static/media/brandonsresume.pdf": "/react-profile/static/media/brandonsresume.ae3dd1b42873c21c04fc.pdf",
     "static/media/logo.svg": "/react-profile/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-profile/index.html",
-    "main.a27cec63.css.map": "/react-profile/static/css/main.a27cec63.css.map",
-    "main.8d30fc86.js.map": "/react-profile/static/js/main.8d30fc86.js.map",
+    "main.adbf6585.css.map": "/react-profile/static/css/main.adbf6585.css.map",
+    "main.068cd50b.js.map": "/react-profile/static/js/main.068cd50b.js.map",
     "787.5c467991.chunk.js.map": "/react-profile/static/js/787.5c467991.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a27cec63.css",
-    "static/js/main.8d30fc86.js"
+    "static/css/main.adbf6585.css",
+    "static/js/main.068cd50b.js"
   ]
 }
